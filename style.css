@@ -3,6 +3,8 @@ body {
 	padding: 0;
 }
 
+/* The Front Page */
+
 .front-page {
 	background-image: url('./Photos/pink.svg');
 	background-size: 33% auto;
@@ -12,7 +14,7 @@ body {
 	position: relative;
 }
 
-.header {
+.front-page .header {
 	max-height: 80px;
 	display: flex;
 	align-items: center;
@@ -20,7 +22,7 @@ body {
 	padding: 23px 28px 0 80px;
 }
 
-.header .title {
+.front-page .header .title {
 	font-family: Nunito;
 	font-size: 24px;
 	font-weight: bold;
@@ -30,7 +32,7 @@ body {
 	display: flex;
 }
 
-.header .title::before {
+.front-page .header .title::before {
 	content: '';
 	height: 30px;
 	width: 30px;
@@ -39,7 +41,7 @@ body {
 	margin-right: 8px;
 }
 
-.menu {
+.front-page .header .menu {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -62,7 +64,7 @@ nav li button {
 	border: 1px solid black;
 }
 
-.text {
+.first-section .text {
 	font-family: Nunito;
 	font-size: 36px;
 	line-height: 49px;
@@ -72,7 +74,7 @@ nav li button {
 	flex-direction: column;
 }
 
-.text button {
+.first-section .text button {
 	background-color: #daa520;
 	border-radius: 4px;
 	width: 175px;
@@ -93,11 +95,11 @@ nav li button {
 	margin: auto;
 }
 
-.right {
+.first-section .right {
 	position: relative;
 }
 
-.right::before {
+.first-section .right::before {
 	content: '';
 	width: 382px;
 	height: 382px;
@@ -108,15 +110,61 @@ nav li button {
 	top: 200px;
 }
 
-.first {
+.first-section .first {
 	height: 98px;
 }
 
-.second {
+.first-section .second {
 	font-size: 72px;
 	font-weight: 700;
 	line-height: 98px;
 	height: 196px;
 	display: flex;
 	align-items: center;
+}
+
+/* The About Page */
+
+.about .top {
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	margin-top: 120px;
+	justify-content: space-between;
+}
+
+.about .title::before {
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-image: url('./Photos/logo2.svg');
+	display: block;
+	margin-right: 8px;
+}
+
+.about .title::after {
+	content: '';
+	width: 564px;
+	height: 1px;
+	background-color: black;
+	display: block;
+	margin-left: 16px;
+
+}
+
+.about .title {
+	font-family: Nunito;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 49px;
+	display: flex;
+	align-items: center;
+}
+
+.about .about-us {
+	font-family: Nunito;
+	font-size: 72px;
+	font-weight: 700;
+	color: #E5E5E5;
+	text-transform: uppercase;
 }
