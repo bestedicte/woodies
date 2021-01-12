@@ -5,6 +5,8 @@ body {
 
 /* The Front Page */
 
+/* FIKS DETTE */
+
 .front-page {
 	background-image: url('./Photos/pink.svg');
 	background-size: 33% auto;
@@ -25,7 +27,7 @@ body {
 .front-page .header .title {
 	font-family: Nunito;
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: 33px;
 	text-transform: uppercase;
 	letter-spacing: 0.25em;
@@ -64,7 +66,7 @@ nav li button {
 	border: 1px solid black;
 }
 
-.first-section .text {
+.text-section .text {
 	font-family: Nunito;
 	font-size: 36px;
 	line-height: 49px;
@@ -74,7 +76,7 @@ nav li button {
 	flex-direction: column;
 }
 
-.first-section .text button {
+.text-section .text button {
 	background-color: #daa520;
 	border-radius: 4px;
 	width: 175px;
@@ -86,7 +88,7 @@ nav li button {
 	color: white;
 }
 
-.first-section {
+.text-section {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -95,11 +97,13 @@ nav li button {
 	margin: auto;
 }
 
-.first-section .right {
+.text-section .right {
 	position: relative;
 }
 
-.first-section .right::before {
+/* FIKS DETTE */
+
+.text-section .right::before {
 	content: '';
 	width: 382px;
 	height: 382px;
@@ -110,11 +114,11 @@ nav li button {
 	top: 200px;
 }
 
-.first-section .first {
+.text-section .first {
 	height: 98px;
 }
 
-.first-section .second {
+.text-section .second {
 	font-size: 72px;
 	font-weight: 700;
 	line-height: 98px;
@@ -124,6 +128,10 @@ nav li button {
 }
 
 /* The About Page */
+
+.about {
+	
+}
 
 .about .top {
 	width: 1200px;
@@ -149,7 +157,6 @@ nav li button {
 	background-color: black;
 	display: block;
 	margin-left: 16px;
-
 }
 
 .about .title {
@@ -163,8 +170,59 @@ nav li button {
 
 .about .about-us {
 	font-family: Nunito;
+	font-weight: 800;
 	font-size: 72px;
 	font-weight: 700;
-	color: #E5E5E5;
+	color: #e5e5e5;
 	text-transform: uppercase;
+}
+
+.about .content {
+	width: 1000px;
+	margin: auto;
+	margin-top: 48px;
+}
+
+.about .middle {
+	font-family: Nunito;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about .middle .first {
+	font-weight: 600;
+	font-size: 34px;
+	margin-bottom: 16px;
+	max-width: 448px;
+}
+
+.about .middle .second {
+	font-size: 24px;
+	display: block;
+	max-width: 448px;
+}
+
+.about .bottom {
+	font-family: Nunito;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 48px;
+}
+
+.about .bottom .first {
+	font-weight: 600;
+	font-size: 34px;
+	margin-bottom: 16px;
+}
+
+.about .bottom .second {
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.about .bold {
+	font-weight: 700;
 }
