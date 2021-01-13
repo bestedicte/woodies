@@ -246,7 +246,7 @@ nav li button {
 
 .third-page .title::after {
 	content: '';
-	width: 300px;
+	width: 320px;
 	height: 1px;
 	background-color: black;
 	display: block;
@@ -291,6 +291,8 @@ nav li button {
 	font-weight: 700;
 	text-align: center;
 	color: white;
+	margin: 64px auto;
+	display: block;
 }
 
 .third-page h3 {
@@ -300,3 +302,97 @@ nav li button {
 	font-size: 24px;
 	text-align: center;
 }
+
+/* Fourth page */
+
+.fourth-page .top {
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	margin-top: 120px;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+.fourth-page .title::before {
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-image: url('./Photos/logo2.svg');
+	display: block;
+	margin-right: 8px;
+}
+
+.fourth-page .title::after {
+	content: '';
+	width: 450px;
+	height: 1px;
+	background-color: black;
+	display: block;
+	margin-left: 16px;
+}
+
+.fourth-page .title {
+	font-family: Nunito;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 49px;
+	display: flex;
+	align-items: center;
+}
+
+.fourth-page .categories {
+	font-family: Nunito;
+	font-weight: 800;
+	font-size: 72px;
+	font-weight: 700;
+	color: #e5e5e5;
+	text-transform: uppercase;
+}
+
+.fourth-page .content {
+	width: 1000px;
+	margin: auto;
+	margin-top: 16px;
+	display: flex;
+	justify-content: ;
+	flex-wrap: wrap;
+}
+
+.fourth-page .content h3 {
+	font-family: Nunito;
+	font-size: 24px;
+	font-weight: 800;
+	align-self: flex-start;
+	margin-left: 16px;
+
+}
+
+.fourth-page button {
+	width: 123px;
+	height: 40px;
+	background-color: transparent;
+	font-family: Nunito;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	color: #3E3F43;
+	align-self: flex-end;
+	margin-right: 16px;
+}
+
+.fourth-page .content > div {
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	height: 400px;
+	margin-bottom: 40px;
+	margin-right: 50px;
+	background-color: #F7DEA6;
+	border-radius: 0px 120px;
+	flex-grow: 0;
+	flex-shrink: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+
