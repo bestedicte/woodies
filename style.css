@@ -195,6 +195,15 @@ nav li button {
 	max-width: 448px;
 }
 
+.about img::before {
+	content: '';
+	background-color: #f7dea6;
+	display: block;
+	width: 278px;
+	height: 388px;
+	border-radius: 0 120px;
+}
+
 .about .middle .second {
 	font-size: 24px;
 	display: block;
@@ -354,7 +363,6 @@ nav li button {
 	margin: auto;
 	margin-top: 16px;
 	display: flex;
-	justify-content: ;
 	flex-wrap: wrap;
 }
 
@@ -362,9 +370,10 @@ nav li button {
 	font-family: Nunito;
 	font-size: 24px;
 	font-weight: 800;
+	color: #3e3f43;
 	align-self: flex-start;
 	margin-left: 16px;
-
+	margin-top: 24px;
 }
 
 .fourth-page button {
@@ -374,10 +383,12 @@ nav li button {
 	font-family: Nunito;
 	font-size: 18px;
 	font-weight: 600;
+
 	text-align: center;
-	color: #3E3F43;
+	color: #3e3f43;
 	align-self: flex-end;
 	margin-right: 16px;
+	margin-bottom: 24px;
 }
 
 .fourth-page .content > div {
@@ -387,12 +398,18 @@ nav li button {
 	height: 400px;
 	margin-bottom: 40px;
 	margin-right: 50px;
-	background-color: #F7DEA6;
+	background-color: #f7dea6;
 	border-radius: 0px 120px;
 	flex-grow: 0;
 	flex-shrink: 0;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 
+.fourth-page div .pink {
+	background-color: #f9bdbd;
+}
 
+.fourth-page div .blue {
+	background-color: #a8dcec;
+}
