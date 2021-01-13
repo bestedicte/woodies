@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	counter-reset: graphic-counter;
 }
 
 /* The Front Page */
@@ -129,10 +130,6 @@ nav li button {
 
 /* The About Page */
 
-.about {
-	
-}
-
 .about .top {
 	width: 1200px;
 	margin: auto;
@@ -225,4 +222,81 @@ nav li button {
 
 .about .bold {
 	font-weight: 700;
+}
+
+/* How it Works */
+
+.third-page .top {
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	margin-top: 120px;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+
+.third-page .title::before {
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-image: url('./Photos/logo2.svg');
+	display: block;
+	margin-right: 8px;
+}
+
+.third-page .title::after {
+	content: '';
+	width: 300px;
+	height: 1px;
+	background-color: black;
+	display: block;
+	margin-left: 16px;
+}
+
+.third-page .title {
+	font-family: Nunito;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 49px;
+	display: flex;
+	align-items: center;
+}
+
+.third-page .how-it-works {
+	font-family: Nunito;
+	font-weight: 800;
+	font-size: 72px;
+	font-weight: 700;
+	color: #e5e5e5;
+	text-transform: uppercase;
+}
+
+.third-page .content {
+	width: 1000px;
+	margin: auto;
+	margin-top: 48px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.third-page button {
+	background: #daa520;
+	border-radius: 4px;
+	width: 212px;
+	height: 50px;
+	border: none;
+	margin-top: 64px;
+	font-family: Nunito;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+}
+
+.third-page h3 {
+	text-align: center;
+	font-family: Nunito;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
 }
