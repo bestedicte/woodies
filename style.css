@@ -413,3 +413,139 @@ nav li button {
 .fourth-page div .blue {
 	background-color: #a8dcec;
 }
+
+.fourth-page .desk {
+	align-self: flex-start;
+}
+
+/* Fifth page */
+
+.fifth-page .top {
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	margin-top: 120px;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+
+.fifth-page .title {
+	font-family: Nunito;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 49px;
+	display: flex;
+	align-items: center;
+}
+
+.fifth-page .title::before {
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-image: url('./Photos/logo2.svg');
+	display: block;
+	margin-right: 8px;
+}
+
+.fifth-page .title::after {
+	content: '';
+	width: 485px;
+	height: 1px;
+	background-color: black;
+	display: block;
+	margin-left: 16px;
+}
+
+.fifth-page .testimony {
+	font-family: Nunito;
+	font-weight: 800;
+	font-size: 72px;
+	font-weight: 700;
+	color: #e5e5e5;
+	text-transform: uppercase;
+}
+
+.fifth-page .content {
+	width: 1000px;
+	margin: auto;
+	margin-top: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fifth-page .left {
+	display: flex;
+}
+
+.fifth-page .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 0 120px;
+	border: 1px solid #a8dcec;
+	height: 250px;
+	width: auto;
+	padding: 16px 54px;
+	font-family: Nunito;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 19px;
+}
+
+.fifth-page .left > img {
+	height: 320px;
+	align-self: flex-start;
+	margin-right: 40px;
+}
+
+.fifth-page .container > p {
+	align-self: center;
+}
+
+.container .lady {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+.names {
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+
+.names p {
+	color: #afafaf;
+	font-weight: 600;
+	margin: 0;
+	margin-left: 8px;
+}
+
+.arrows {
+	display: flex;
+	width: 436px;
+	margin: auto;
+	justify-content: space-between;
+
+}
+
+.arrow1 {
+	color: #c4c4c4;
+	font-family: Nunito;
+	font-size: 14px;
+	font-weight: 600;
+	display: flex;
+}
+
+.arrow2 {
+	color: black;
+	font-family: Nunito;
+	font-size: 14px;
+	font-weight: 600;
+	display: flex;
+}
+
+.arrows img {
+	margin: 0 8px;
+}
